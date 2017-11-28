@@ -1,0 +1,38 @@
+/*@font-face {
+    font-family: ACaslonPro-Regular;
+    src: local("ACaslonPro-Regular"),
+     url(/dist/ACaslonPro-Regular.otf);
+    font-weight:400;
+}*/
+.App {
+  text-align: center;
+}
+.App-header{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  width:100%;
+  background:#ffffff;
+  height:50px;
+  line-height:50px;
+  border-bottom:1px solid #dddddd;
+}
+.App-header span {
+  float: right;
+  display: block;
+  text-align: right;
+  padding: 5px 10px;
+  font-size: 12px
+}
+#logo{
+    float: left;
+    text-align: center;
+    padding: 10px 25px;
+}
+.App-logo{
+  height: 20px;
+}
+.Img-header{
+  padding-top: 35px
+}
